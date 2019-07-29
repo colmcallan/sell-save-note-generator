@@ -5,36 +5,48 @@
 //All utiliszing the jquery toggle function
 //<!--All code used in this is copyright to Colm Callan, colm.callan@sky.ie-->
 
-//SkyQ button
+//attraction call option
 $(document).ready(function() {
   $("#AttrButton").click(function() {
     $("#attraction").toggle();
   });
 });
 
-//SkyQ trouebleshooting
+//Attraction add on subs. hides attraction options when clicked.
 $(document).ready(function() {
-  $("#Qtroublesht").click(function() {
-    $("#TROUBLESHOOT").toggle();
+  $("#attraddon").click(function() {
+    $("#attrcthide").hide();
+    $("#attractionaddon").toggle();
   });
 });
-//HD
+//save, Turn around. 
 $(document).ready(function() {
-  $("#prdctbtnHD").click(function() {
-    $("#skyHD1").toggle();
+  $("#turnrnd").click(function() {
+    $("#trnarnd").toggle();
   });
 });
-
-//Troubleshoot HD 
+//save, Turn around. 
 $(document).ready(function() {
-  $("#troubleShootingHD").click(function() {
-    $("#TROUBLESHOOTHD").toggle();
+  $("#loyalty").click(function() {
+    $("#hidetrnarnd").hide();
+    $("#loyaltyscn").toggle();
   });
 });
-
+//PAT
+$(document).ready(function() {
+  $("#patbbtn").click(function() {
+    $("#pat").toggle();
+  });
+});
+$(document).ready(function() {
+  $("#patoptions").click(function() {
+    $("#hidepat").hide();
+    $("#patscn").toggle();
+  });
+});
 //adslbroadband
 $(document).ready(function() {
-  $("#prdctbtnBB").click(function() {
+  $("#turnrnd").click(function() {
     $("#ADSL1").toggle();
   });
 });
@@ -51,7 +63,7 @@ $(document).ready(function() {
   $("#prdctbtnFTTH").click(function() {
     $("#FTTH1").toggle();
   });
-}); 
+});
 //FTTH troubleshooting
 $(document).ready(function() {
   $("#trubleShootFTTH").click(function() {
