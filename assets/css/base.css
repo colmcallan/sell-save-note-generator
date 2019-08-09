@@ -356,3 +356,8 @@ input:checked+.slider:before {
   border-radius: .3rem;
   outline: 0;
 }
+
+
+.upgradebtns{
+  display: flex;
+}

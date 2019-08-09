@@ -274,725 +274,844 @@
                             <input type="checkbox" class="notes" value="Password holder called in"> <span class="slider round"></span>
                             </label>
 								</div>
-							</div>
-							<h4>Subscription Upgrades</h4>
-
 							<div class="sliderWrapper">
 								<div>Customer called in looking for upgrade&nbsp;&nbsp;</div>
 								<label class="switch">
 							<input type="checkbox" class="notes" value="looking to upgrade their subscription to"><span class="slider round"></span>
                             </label></div>
-							<div class="sliderWrapper">
-								<div>Upsold the customer a subscription&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="Through our conversation with the customer, I upgraded them to"><span class="slider round"></span>
-                            </label></div>
+					</div>
 
-							<h4> Sky Sports upgrades</h4>
-							<!--Sports Scenarios-->
+					<br>
+					<h4>Subscription Upgrades</h4>
+					<button type="button" class="btn btn-default" onclick="troubleShooting()" id="sportsup">Sky Sports Upgrades</button>
+					<button type="button" class="btn btn-default" onclick="troubleShooting()" id="cinemaupgrd">Sky Cinema Upgrades</button>
+					<button type="button" class="btn btn-default" onclick="troubleShooting()" id="toptierupgrd">Top Tier Upgrades</button>
+					<button type="button" class="btn btn-default" onclick="troubleShooting()" id="baseupgrd">Base Subscription & combination upgrades</button>
+					<button type="button" class="btn btn-default" onclick="troubleShooting()" id="standaloneupg">Standalone upgrades(kids etc)</button>
+					<button type="button" class="btn btn-default" onclick="troubleShooting()" id="prodctsupgrade">Products upgraded</button>
 
-							<div class="sliderWrapper">
-								<div>Sports Extra&nbsp;&nbsp;</div>
-								<label class="switch">
+
+
+
+
+
+
+					<br>
+					<br>
+					<div id="Sportsupgrd" style="display:none;">
+						<!--Sports Scenarios-->
+
+						<div class="sliderWrapper">
+							<div>Sports Extra&nbsp;&nbsp;</div>
+							<label class="switch">
 							<input type="checkbox" class="notes" value="the Sky Sports Extra subscription added on to their account"><span class="slider round"></span>
                             </label></div>
-							<div class="sliderWrapper">
-								<div>Sports Extra & HD&nbsp;&nbsp;</div>
-								<label class="switch">
+						<div class="sliderWrapper">
+							<div>Sports Extra & HD&nbsp;&nbsp;</div>
+							<label class="switch">
 							<input type="checkbox" class="notes" value="the Sky Sports Extra & HD subscription added on to their account"><span class="slider round"></span>
                             </label></div>
-							<div class="sliderWrapper">
-								<div>Sports Extra, HD & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
+						<div class="sliderWrapper">
+							<div>Sports Extra, HD & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
 							<input type="checkbox" class="notes" value="the Sky Sports Extra, HD & Boxsets subscription added on to their account"><span class="slider round"></span>
                             </label></div>
-							<div class="sliderWrapper">
-								<div>Sports&nbsp;&nbsp;</div>
-								<label class="switch">
+						<div class="sliderWrapper">
+							<div>Sports&nbsp;&nbsp;</div>
+							<label class="switch">
 							<input type="checkbox" class="notes" value="the sports subscription at the offered price at this time"><span class="slider round"></span>
                             </label></div>
-							<div class="sliderWrapper">
-								<div>Sports & HD&nbsp;&nbsp;</div>
-								<label class="switch">
+						<div class="sliderWrapper">
+							<div>Sports & HD&nbsp;&nbsp;</div>
+							<label class="switch">
 							<input type="checkbox" class="notes" value="the Sky Sports & HD subscription at the offered price at this time"><span class="slider round"></span>
                             </label></div>
-							<div class="sliderWrapper">
-								<div>Sports & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
+						<div class="sliderWrapper">
+							<div>Sports & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
 							<input type="checkbox" class="notes" value="the Sky Sports & Boxsets subscription at the offered price at this time"><span class="slider round"></span>
                             </label></div>
-							<div class="sliderWrapper">
-								<div>Sports, HD & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
+						<div class="sliderWrapper">
+							<div>Sports, HD & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
 							<input type="checkbox" class="notes" value="the Sky Sports, HD & Boxsets subscription at the offered price at this time"><span class="slider round"></span>
                             </label></div>
-							<div class="sliderWrapper">
-								<div>Sports & Sports Extra&nbsp;&nbsp;</div>
-								<label class="switch">
+						<div class="sliderWrapper">
+							<div>Sports & Sports Extra&nbsp;&nbsp;</div>
+							<label class="switch">
 							<input type="checkbox" class="notes" value="the  sports subscription at the offered price at this time including Sky Sports Exra"><span class="slider round"></span>
                             </label></div>
-							<div class="sliderWrapper">
-								<div>Sports, Sports Extra & HD&nbsp;&nbsp;</div>
-								<label class="switch">
+						<div class="sliderWrapper">
+							<div>Sports, Sports Extra & HD&nbsp;&nbsp;</div>
+							<label class="switch">
 							<input type="checkbox" class="notes" value="the sports subscription at the offered price at this time including Sky Sports Exra & HD"><span class="slider round"></span>
                             </label></div>
-							<div class="sliderWrapper">
-								<div>Sports, Sports Extra, HD & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
+						<div class="sliderWrapper">
+							<div>Sports, Sports Extra, HD & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
 							<input type="checkbox" class="notes" value="the  sports subscription at the offered price at this time including Sky Sports Exra, HD & Boxsets"><span class="slider round"></span>
                             </label></div>
-							<br>
-							<h4>Cinema upgrades</h4>
-							<!--Cinema Scenarios-->
-							<br>
-							<div class="sliderWrapper">
-								<div>Cinema&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the cinema subscription at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Cinema & HD&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the cinema & HD subscription at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Cinema & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the cinema & Boxsets subscription at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Cinema, HD & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the cinema, HD & Boxsets subscription at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Cinema & Sports Extra&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the cinema & Sports Extra subscription at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Cinema, Sports Extra & HD&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Cinema, Sports Extra & HD subscription at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Cinema, Sports Extra, HD & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Cinema, Sports Extra, HD & Boxsets subscription at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<br>
-
-							<h4>Top Tier upgrades</h4>
-							<!--Top tier Scnearios-->
-							<div class="sliderWrapper">
-								<div>Top Tier&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Sports & Cinema subscription at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Top Tier & HD&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Sports, Cinema & HD subscription at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Top Tier, HD & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Sports, Cinema, HD & Boxsets subscription at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Top Tier & Sports Extra&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value=" the Sports & Cinema with Sky Sports Extra subscription at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Top Tier, Sports Extra & HD&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value=" the Sports, Cinema, Sky Sports Extra & HD subscription at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Top Tier, Sports Extra & HD&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value=" the Sports, Cinema, Sky Sports Extra, HD & Boxsets subscription at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<br>
-							<h4>Base subscription & comination upgrades</h4>
-							<!--base subscription upgrades, stacked upgrades-->
-							<br>
-							<div class="sliderWrapper">
-								<div>Entertainment&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment & boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription & boxsets subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment & HD&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription & HD subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment & HD & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription,HD & boxsets subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment & Sports&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription & Sky Sports subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Sports & HD&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription, Sky Sports & HD subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Sports & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription, Sky Sports & Boxsets subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Sports, HD & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription, Sky Sports, HD & Boxsets subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment & Sports Extra&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription & Sky Sports Extra subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Sports Extra & HD&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription, Sky Sports Extra & HD subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Sports Extra & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription, Sky Sports Extra & Boxsets subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Sports Extra, HD & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription, Sky Sports Extra, HD & Boxsets subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Sky Sports & Sports Extra&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription,Sky Sports & Sky Sports Extra subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Sky Sports, Sports Extra & HD&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription,Sky Sports, Sky Sports Extra & HD subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Sky Sports, Sports Extra & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription,Sky Sports, Sky Sports Extra & Boxsets subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Sky Sports, Sports Extra, HD & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription,Sky Sports, Sky Sports Extra, HD & Boxsets subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment & Cinema&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription & Cinema subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Cinema & HD&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription, Cinema & HD subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Cinema & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription, Cinema & Boxsets subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Cinema, HD & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription, Cinema & Boxsets subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Cinema & Sports Extra&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription, Cinema & Sports Extra subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Cinema, Sports Extra & HD&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription, Cinema, Sports Extra & HD subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Cinema, Sports Extra & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription, Cinema, Sports Extra & Boxsets subscription"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Entertainment, Cinema, Sports Extra, HD & Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the Entertainment subscription, Cinema, Sports Extra & HD subscription"><span class="slider round"></span>
-                            </label></div>
-							<br>
-
-
-
-
-
-
-							<h4>Standalone upgrades/Legacy</h4>
-							<div class="sliderWrapper">
-								<div>HD-Legacy&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the  HD-Legacy subscription at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>HD-st&alone&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the HD st&alone product as part of the entertainment bundle at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Boxsets&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the boxsets st&alone product as part of the entertainment bundle at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>UOD&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the UOD product as part of the entertainment bundle at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>MS&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the MS subscription for their household at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Kids&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the kids subscription as part of the entertainment bundle at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-
-							<div class="sliderWrapper">
-								<div>Sky Talk Anytime&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="the sky talk anytime subscription on their Sky talk subscription at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<h4>Products Upgraded</h4>
-							<div class="sliderWrapper">
-								<div>ADSL Broadb&&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="have our ADSL broadb& service on their account at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>LE submitted&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="I've had to submit an LE for the customer, advised I will contact the customer back once this is complete"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Fibre Broadb&&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="have our Fibre broadb& service on their account at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>FTTH&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="have our FTTH broadb& service on their account at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>VOIP&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="have our VOIP broadb& service on their account at the offered price at this time"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Sky Q 1tb&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="have their Sky equpiment upgraded to the sky Q1tb on their account, upfront payment has been taken"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Sky Q 2tb&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="have their Sky equpiment upgraded to the sky Q2tb on their account, upfront payment has been taken"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Sky Q mini&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="have their Sky equpiment upgraded to have a mini on their account"><span class="slider round"></span>
-                            </label></div>
-							<div class="sliderWrapper">
-								<div>Sky Q-VIP offer&nbsp;&nbsp;</div>
-								<label class="switch">
-							<input type="checkbox" class="notes" value="we've upgraded the customer to have the sky Q equipment on the VIP offer with a once off payment of €35.00"><span class="slider round"></span>
-                            </label></div>
-							<!--More questions-->
-							<h4>Re-contract applied to account?</h4>
-							<div class="sliderWrapper">
-								<div>TV- Yes&nbsp;&nbsp;</div>
-								<label class="switch">
+						<h4>Re-contract applied to account?</h4>
+						<div class="sliderWrapper">
+							<div>TV- Yes&nbsp;&nbsp;</div>
+							<label class="switch">
 							<input type="checkbox" class="notes" value="Customer took a recontract offer on their account for TV, advised of terms & conditions & key facts regarding it"><span class="slider round"></span>
                             </label></div>
-							<div class="sliderWrapper">
-								<div>TV-No&nbsp;&nbsp;</div>
-								<label class="switch">
+						<div class="sliderWrapper">
+							<div>TV-No&nbsp;&nbsp;</div>
+							<label class="switch">
 							<input type="checkbox" class="notes" value="Customer's account has been upgraded however no re-contract has been applied"><span class="slider round"></span>
                             </label></div>
-							<div class="sliderWrapper">
-								<div>BB- Yes&nbsp;&nbsp;</div>
-								<label class="switch">
+						<div class="sliderWrapper">
+							<div>BB- Yes&nbsp;&nbsp;</div>
+							<label class="switch">
 							<input type="checkbox" class="notes" value="Customer took a recontract offer on their account for Broadb& & Talk, advised of terms & conditions & key facts regarding it"><span class="slider round"></span>
                             </label></div>
-							<div class="sliderWrapper">
-								<div>Key Facts Have Been Read&nbsp;&nbsp;</div>
-								<label class="switch">
+						<div class="sliderWrapper">
+							<div>Key Facts Have Been Read&nbsp;&nbsp;</div>
+							<label class="switch">
 							<input type="checkbox" class="notes" value="all relevant key facts have been read out to the customer & they are aware of their agreement. & the process of removing the upgrade they took"><span class="slider round"></span>
                             </label></div>
-						</FORM>
 					</div>
-					<!--Turnaround full cancellations.-->
-					<div id="trnarnd" style="display:none;">
-						<div id="hidetrnarnd">
-							<FORM id=Formsave method=get name=FormName action=blah.php>
-								<div class="accntholder">
-									<h3>Account Holder or Password Holder?</h3>
-									<div class="sliderWrapper">
-										<div>Account holder&nbsp;&nbsp;</div>
-										<label class="switch">
+					
+					<div id="Cinemaupgrade" style="display:none;">
+						<h4>Cinema upgrades</h4>
+						<!--Cinema Scenarios-->
+						<br>
+						<div class="sliderWrapper">
+							<div>Cinema&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the cinema subscription at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Cinema & HD&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the cinema & HD subscription at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Cinema & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the cinema & Boxsets subscription at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Cinema, HD & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the cinema, HD & Boxsets subscription at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Cinema & Sports Extra&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the cinema & Sports Extra subscription at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Cinema, Sports Extra & HD&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Cinema, Sports Extra & HD subscription at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Cinema, Sports Extra, HD & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Cinema, Sports Extra, HD & Boxsets subscription at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<h4>Re-contract applied to account?</h4>
+						<div class="sliderWrapper">
+							<div>TV- Yes&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="Customer took a recontract offer on their account for TV, advised of terms & conditions & key facts regarding it"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>TV-No&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="Customer's account has been upgraded however no re-contract has been applied"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>BB- Yes&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="Customer took a recontract offer on their account for Broadb& & Talk, advised of terms & conditions & key facts regarding it"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Key Facts Have Been Read&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="all relevant key facts have been read out to the customer & they are aware of their agreement. & the process of removing the upgrade they took"><span class="slider round"></span>
+                            </label></div>
+					</div>
+					<div id="toptierupgrade" style="display:none;">
+						<!--Top tier Scnearios-->
+						<div class="sliderWrapper">
+							<div>Top Tier&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Sports & Cinema subscription at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Top Tier & HD&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Sports, Cinema & HD subscription at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Top Tier, HD & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Sports, Cinema, HD & Boxsets subscription at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Top Tier & Sports Extra&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value=" the Sports & Cinema with Sky Sports Extra subscription at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Top Tier, Sports Extra & HD&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value=" the Sports, Cinema, Sky Sports Extra & HD subscription at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Top Tier, Sports Extra & HD&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value=" the Sports, Cinema, Sky Sports Extra, HD & Boxsets subscription at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<h4>Re-contract applied to account?</h4>
+						<div class="sliderWrapper">
+							<div>TV- Yes&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="Customer took a recontract offer on their account for TV, advised of terms & conditions & key facts regarding it"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>TV-No&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="Customer's account has been upgraded however no re-contract has been applied"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>BB- Yes&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="Customer took a recontract offer on their account for Broadb& & Talk, advised of terms & conditions & key facts regarding it"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Key Facts Have Been Read&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="all relevant key facts have been read out to the customer & they are aware of their agreement. & the process of removing the upgrade they took"><span class="slider round"></span>
+                            </label></div>
+					</div>
+					<div id="baseupgrade" style="display:none;">
+						<!--base subscription upgrades, stacked upgrades-->
+						<br>
+						<div class="sliderWrapper">
+							<div>Entertainment&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment & boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription & boxsets subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment & HD&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription & HD subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment & HD & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription,HD & boxsets subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment & Sports&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription & Sky Sports subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Sports & HD&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription, Sky Sports & HD subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Sports & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription, Sky Sports & Boxsets subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Sports, HD & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription, Sky Sports, HD & Boxsets subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment & Sports Extra&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription & Sky Sports Extra subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Sports Extra & HD&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription, Sky Sports Extra & HD subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Sports Extra & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription, Sky Sports Extra & Boxsets subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Sports Extra, HD & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription, Sky Sports Extra, HD & Boxsets subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Sky Sports & Sports Extra&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription,Sky Sports & Sky Sports Extra subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Sky Sports, Sports Extra & HD&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription,Sky Sports, Sky Sports Extra & HD subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Sky Sports, Sports Extra & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription,Sky Sports, Sky Sports Extra & Boxsets subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Sky Sports, Sports Extra, HD & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription,Sky Sports, Sky Sports Extra, HD & Boxsets subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment & Cinema&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription & Cinema subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Cinema & HD&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription, Cinema & HD subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Cinema & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription, Cinema & Boxsets subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Cinema, HD & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription, Cinema & Boxsets subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Cinema & Sports Extra&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription, Cinema & Sports Extra subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Cinema, Sports Extra & HD&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription, Cinema, Sports Extra & HD subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Cinema, Sports Extra & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription, Cinema, Sports Extra & Boxsets subscription"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Entertainment, Cinema, Sports Extra, HD & Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the Entertainment subscription, Cinema, Sports Extra & HD subscription"><span class="slider round"></span>
+                            </label></div>
+						<h4>Re-contract applied to account?</h4>
+						<div class="sliderWrapper">
+							<div>TV- Yes&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="Customer took a recontract offer on their account for TV, advised of terms & conditions & key facts regarding it"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>TV-No&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="Customer's account has been upgraded however no re-contract has been applied"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>BB- Yes&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="Customer took a recontract offer on their account for Broadb& & Talk, advised of terms & conditions & key facts regarding it"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Key Facts Have Been Read&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="all relevant key facts have been read out to the customer & they are aware of their agreement. & the process of removing the upgrade they took"><span class="slider round"></span>
+                            </label></div>
+					</div>
+					<!--end of button div-->
+					<div id="standaloneupgrade" style="display:none;">
+						<div class="sliderWrapper">
+							<div>HD-Legacy&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the  HD-Legacy subscription at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>HD-st&alone&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the HD st&alone product as part of the entertainment bundle at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Boxsets&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the boxsets st&alone product as part of the entertainment bundle at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>UOD&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the UOD product as part of the entertainment bundle at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>MS&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the MS subscription for their household at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Kids&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the kids subscription as part of the entertainment bundle at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Sky Talk Anytime&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="the sky talk anytime subscription on their Sky talk subscription at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<h4>Re-contract applied to account?</h4>
+						<div class="sliderWrapper">
+							<div>TV- Yes&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="Customer took a recontract offer on their account for TV, advised of terms & conditions & key facts regarding it"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>TV-No&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="Customer's account has been upgraded however no re-contract has been applied"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>BB- Yes&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="Customer took a recontract offer on their account for Broadb& & Talk, advised of terms & conditions & key facts regarding it"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Key Facts Have Been Read&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="all relevant key facts have been read out to the customer & they are aware of their agreement. & the process of removing the upgrade they took"><span class="slider round"></span>
+                            </label></div>
+					</div>
+					<!--end of button div-->
+
+					<div id="productsupgrade" style="display:none;">
+						<!--hidden div in button-->
+						<div class="sliderWrapper">
+							<div>ADSL Broadb&&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="have our ADSL broadb& service on their account at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>LE submitted&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="I've had to submit an LE for the customer, advised I will contact the customer back once this is complete"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Fibre Broadb&&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="have our Fibre broadb& service on their account at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>FTTH&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="have our FTTH broadb& service on their account at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>VOIP&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="have our VOIP broadb& service on their account at the offered price at this time"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Sky Q 1tb&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="have their Sky equpiment upgraded to the sky Q1tb on their account, upfront payment has been taken"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Sky Q 2tb&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="have their Sky equpiment upgraded to the sky Q2tb on their account, upfront payment has been taken"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Sky Q mini&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="have their Sky equpiment upgraded to have a mini on their account"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Sky Q-VIP offer&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="we've upgraded the customer to have the sky Q equipment on the VIP offer with a once off payment of €35.00"><span class="slider round"></span>
+                            </label></div>
+						<h4>Re-contract applied to account?</h4>
+						<div class="sliderWrapper">
+							<div>TV- Yes&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="Customer took a recontract offer on their account for TV, advised of terms & conditions & key facts regarding it"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>TV-No&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="Customer's account has been upgraded however no re-contract has been applied"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>BB- Yes&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="Customer took a recontract offer on their account for Broadb& & Talk, advised of terms & conditions & key facts regarding it"><span class="slider round"></span>
+                            </label></div>
+						<div class="sliderWrapper">
+							<div>Key Facts Have Been Read&nbsp;&nbsp;</div>
+							<label class="switch">
+							<input type="checkbox" class="notes" value="all relevant key facts have been read out to the customer & they are aware of their agreement. & the process of removing the upgrade they took"><span class="slider round"></span>
+                            </label></div>
+					</div>
+					<!--end of div with butotn-->
+					<!--More questions-->
+
+
+					</FORM>
+				</div>
+
+				<!--Turnaround full cancellations.-->
+				<div id="trnarnd" style="display:none;">
+					<div id="hidetrnarnd">
+						<FORM id=Formsave method=get name=FormName action=blah.php>
+							<div class="accntholder">
+								<h3>Account Holder or Password Holder?</h3>
+								<div class="sliderWrapper">
+									<div>Account holder&nbsp;&nbsp;</div>
+									<label class="switch">
                             <input type="checkbox" class="notes" value="Account holder"> <span class="slider round"></span>
                             </label>
-									</div>
-									<div class="sliderWrapper">
-										<div>Password holder&nbsp;&nbsp;</div>
-										<label class="switch">
+								</div>
+								<div class="sliderWrapper">
+									<div>Password holder&nbsp;&nbsp;</div>
+									<label class="switch">
                             <input type="checkbox" class="notes" value="Password holder"> <span class="slider round"></span>
                             </label>
-									</div>
 								</div>
-								<!--options for cancellation scenarios-->
-								<h4>Transfer from another department</h4>
-								<div class="sliderWrapper">
-									<div>Full cancellation-TV only, not in contract(account holder)&nbsp;&nbsp;</div>
-									<label class="switch">
+							</div>
+							<!--options for cancellation scenarios-->
+							<h4>Transfer from another department</h4>
+							<div class="sliderWrapper">
+								<div>Full cancellation-TV only, not in contract(account holder)&nbsp;&nbsp;</div>
+								<label class="switch">
 							<input type="checkbox" class="notes" value="was transferred through to cancel their full TV Sky account due to cost/competitor offer"><span class="slider round"></span>
                             </label></div>
-								<div class="sliderWrapper">
-									<div>Full cancellation-TV only, not in contract(non-account holder)&nbsp;&nbsp;</div>
-									<label class="switch">
+							<div class="sliderWrapper">
+								<div>Full cancellation-TV only, not in contract(non-account holder)&nbsp;&nbsp;</div>
+								<label class="switch">
 							<input type="checkbox" class="notes" value="was transferred through to cancel their full TV Sky account due to cost/competitor offer"><span class="slider round"></span>
                             </label></div>
-								<br>
-								<div class="sliderWrapper">
-									<div>Full cancellation-TV & BB, not in contract(account holder)&nbsp;&nbsp;</div>
-									<label class="switch">
+							<br>
+							<div class="sliderWrapper">
+								<div>Full cancellation-TV & BB, not in contract(account holder)&nbsp;&nbsp;</div>
+								<label class="switch">
 							<input type="checkbox" class="notes" value="was transferred through to cancel their full TV & BB Sky account due to cost/competitor offer"><span class="slider round"></span>
                             </label></div>
-								<div class="sliderWrapper">
-									<div>Full cancellation-TV & BB, not in contract(non-account holder)&nbsp;&nbsp;</div>
-									<label class="switch">
+							<div class="sliderWrapper">
+								<div>Full cancellation-TV & BB, not in contract(non-account holder)&nbsp;&nbsp;</div>
+								<label class="switch">
 							<input type="checkbox" class="notes" value="was transferred through to cancel their full TV & BB Sky account due to cost/competitor offer"><span class="slider round"></span>
                             </label></div>
-								<br>
-								<h4>In Contract</h4>
-								<div class="sliderWrapper">
-									<div>Full cancellation-TV only,in contract(account holder)&nbsp;&nbsp;</div>
-									<label class="switch">
+							<br>
+							<h4>In Contract</h4>
+							<div class="sliderWrapper">
+								<div>Full cancellation-TV only,in contract(account holder)&nbsp;&nbsp;</div>
+								<label class="switch">
 							<input type="checkbox" class="notes" value="was transferred through to cancel their full TV Sky account due to cost/competitor offer advised in contract and can't cancel."><span class="slider round"></span>
                             </label></div>
-								<div class="sliderWrapper">
-									<div>Full cancellation-TV only,in contract(non-account holder)&nbsp;&nbsp;</div>
-									<label class="switch">
+							<div class="sliderWrapper">
+								<div>Full cancellation-TV only,in contract(non-account holder)&nbsp;&nbsp;</div>
+								<label class="switch">
 							<input type="checkbox" class="notes" value="was transferred through to cancel their full TV Sky account due to cost/competitor offer advised in contract and can't cancel."><span class="slider round"></span>
                             </label></div>
-								<br>
-								<div class="sliderWrapper">
-									<div>Full cancellation-TV & BB,in contract(account holder)&nbsp;&nbsp;</div>
-									<label class="switch">
+							<br>
+							<div class="sliderWrapper">
+								<div>Full cancellation-TV & BB,in contract(account holder)&nbsp;&nbsp;</div>
+								<label class="switch">
 							<input type="checkbox" class="notes" value="was transferred through to cancel their full TV & BB Sky account due to cost/competitor offer advised in contract and can't cancel."><span class="slider round"></span>
                             </label></div>
-								<div class="sliderWrapper">
-									<div>Full cancellation-TV & BB,in contract(non-account holder)&nbsp;&nbsp;</div>
-									<label class="switch">
+							<div class="sliderWrapper">
+								<div>Full cancellation-TV & BB,in contract(non-account holder)&nbsp;&nbsp;</div>
+								<label class="switch">
 							<input type="checkbox" class="notes" value="was transferred through to cancel their full TV & BB account, due to cost/competitor offer advised in contract and can't cancel."><span class="slider round"></span>
                             </label></div>
-								<div class="sliderWrapper">
-									<div>Broadband standalone&nbsp;&nbsp;</div>
-									<label class="switch">
+							<div class="sliderWrapper">
+								<div>Broadband standalone&nbsp;&nbsp;</div>
+								<label class="switch">
 							<input type="checkbox" class="notes" value="was transferred through to cancel their BB&T account, due to cost/competitor offer"><span class="slider round"></span>
                             </label></div>
-							</form>
-						</div>
-						<br>
-						<!--SKY +HD troubleshooting steps hidden until clicked and hidden within Sky HD-->
-						<button type="button" class="btn btn-default" onclick="troubleShootingHD()" id="loyalty">Turnaround Outcomes</button>
-						<div id="loyaltyscn" style="display:none;">
-							<div class="sliderWrapper">
-								<div>Turnaround save (TV Only account)&nbsp;&nbsp;</div>
-								<label class="switch">
+						</form>
+					</div>
+					<br>
+					<!--SKY +HD troubleshooting steps hidden until clicked and hidden within Sky HD-->
+					<button type="button" class="btn btn-default" onclick="troubleShootingHD()" id="loyalty">Turnaround Outcomes</button>
+					<div id="loyaltyscn" style="display:none;">
+						<div class="sliderWrapper">
+							<div>Turnaround save (TV Only account)&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered discounts (€) off DTV for 12 months min T&C's read and agreed, future billing explained"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Turnaround save (TV & BB account)&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Turnaround save (TV & BB account)&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered discounts (€) off DTV and (€) BB&T for 12 months min T&C's read and agreed, future billing explained"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Turnaround save (TV Saved BB cancelled)&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Turnaround save (TV Saved BB cancelled)&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered discounts (€) off DTV and (€) BB&T for 12 months, customer took offer on DTV however is cancelling BB&T, T&C's read out for DTV and agreed 12 month min term contract. Passed to loyalty+ for 31 days notice/UAN"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Standalone BB Save&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Standalone BB Save&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered (€) BB&T for 12 months min T&C's read and agreed, future billing explained"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Turnaround save (Upgrade to Q)&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Turnaround save (Upgrade to Q)&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered discounts (€) off DTV and offered Sky Q VIP upgrade with QMS, customer accepted offers for 12 months min term T&C's read and agreed, future billing explained"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Turnaround save (Upgrade TT)&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Turnaround save (Upgrade TT)&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered discounts (€) off DTV for 12 months min term & upgraded to TT @ (€) for 6 months , T&C's read and agreed, future billing explained"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Turnaround save (Upgrade TT & Sports Extra)&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Turnaround save (Upgrade TT & Sports Extra)&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered discounts (€) off DTV for 12 months min term & upgraded to TT & Sky Sports Extra @ (€) for 6 months , T&C's read and agreed, future billing explained"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Turnaround save (Downgrade MS/HD)&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Turnaround save (Downgrade MS/HD)&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered to downgrade their multiscreen sub/HD sub, customer accepted this option. T&C's read and agreed, future billing explained"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Turnaround save (prems with DTV offer)&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Turnaround save (prems with DTV offer)&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered to downgrade their Sky Cinema/Sky Sports subscription with an offer on their DTV sub of (€), customer accepted this option. T&C's read and agreed, future billing explained"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Turnaround saved with home move (Free Home Move with DTV offer 12 months)&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Turnaround saved with home move (Free Home Move with DTV offer 12 months)&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered to give a free home move and apply an offer of (€) on their DTV for 12 months.Customer accepted this, T&C's read and agreed, future billing explained"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Turnaround saved with home move and BB&T sale&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Turnaround saved with home move and BB&T sale&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered to give a free home move and apply an offer of (€) on their DTV for 12 months.Customer accepted this,upgraded to BB&T with the (€) offer T&C's read and agreed, future billing explained"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Turnaround saved with home move BB fail(BB not available at new address)&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Turnaround saved with home move BB fail(BB not available at new address)&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered to give a free home move and apply an offer of (€) on their DTV for 12 months.Customer accepted this,BB&T not available at the new address. T&C's read and agreed, future billing explained"> <span class="slider round"></span>
                             </label>
-							</div>
-							<h4>Turnaround Fail Outcomes</h4>
-							<div class="sliderWrapper">
-								<div>Turnaround fail (TV Only account)&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<h4>Turnaround Fail Outcomes</h4>
+						<div class="sliderWrapper">
+							<div>Turnaround fail (TV Only account)&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered discounts (€) off DTV for 12 months with min term contract, customer rejected all offers, processed 31 days notice & passed to loyalty+ for final bill"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Turnaround fail (TV & BB account)&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Turnaround fail (TV & BB account)&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered discounts (€) off DTV for 12 months & (€) off BB&T with 12 month min term contract, customer rejected all offers, processed 31 days notice & passed to loyalty+ for final bill"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Turnaround fail BB&T Save &nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Turnaround fail BB&T Save &nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered discounts (€) off DTV for 12 months customer rejected all offers,offered (€) on BB&T, customer accepted new min term on BB&T. processed 31 days notice processed for DTV & final bill explained"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Turnaround fail Moving Abroad&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Turnaround fail Moving Abroad&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered discounts (€) off DTV for 12 months customer rejected all offers as they are moving out of the country, processed 31 days notice & explained final bill"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Turnaround fail Home Move&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Turnaround fail Home Move&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="offered discounts (€) off DTV for 12 months customer rejected all offers as they are moving property and don't want Sky anymore, processed 31 days notice & explained final bill"> <span class="slider round"></span>
                             </label>
-							</div>
-
 						</div>
 
 					</div>
-					<!--PAT Calls.-->
-					<div id="pat" style="display:none;">
-						<div id="hidepat">
-							<FORM id=Formsave method=get name=FormName action=blah.php>
-								<div class="accntholder">
-									<h3>Account Holder or Password Holder?</h3>
-									<div class="sliderWrapper">
-										<div>Account holder&nbsp;&nbsp;</div>
-										<label class="switch">
+
+				</div>
+				<!--PAT Calls.-->
+				<div id="pat" style="display:none;">
+					<div id="hidepat">
+						<FORM id=Formsave method=get name=FormName action=blah.php>
+							<div class="accntholder">
+								<h3>Account Holder or Password Holder?</h3>
+								<div class="sliderWrapper">
+									<div>Account holder&nbsp;&nbsp;</div>
+									<label class="switch">
                             <input type="checkbox" class="notes" value="Account holder"> <span class="slider round"></span>
                             </label>
-									</div>
-									<div class="sliderWrapper">
-										<div>Password holder&nbsp;&nbsp;</div>
-										<label class="switch">
+								</div>
+								<div class="sliderWrapper">
+									<div>Password holder&nbsp;&nbsp;</div>
+									<label class="switch">
                             <input type="checkbox" class="notes" value="Password holder"> <span class="slider round"></span>
                             </label>
-									</div>
 								</div>
-								<h3>Pat Call Scenarios</h3>
-								<div class="sliderWrapper">
-									<div>Remove Top Tier&nbsp;&nbsp;</div>
-									<label class="switch">
+							</div>
+							<h3>Pat Call Scenarios</h3>
+							<div class="sliderWrapper">
+								<div>Remove Top Tier&nbsp;&nbsp;</div>
+								<label class="switch">
                             <input type="checkbox" class="notes" value="called in to downgrade their Top Tier subscription"> <span class="slider round"></span>
                             </label>
-								</div>
-								<div class="sliderWrapper">
-									<div>Remove Sports&nbsp;&nbsp;</div>
-									<label class="switch">
+							</div>
+							<div class="sliderWrapper">
+								<div>Remove Sports&nbsp;&nbsp;</div>
+								<label class="switch">
                             <input type="checkbox" class="notes" value="called in to downgrade their Sports subscription"> <span class="slider round"></span>
                             </label>
-								</div>
-								<div class="sliderWrapper">
-									<div>Remove Cinema&nbsp;&nbsp;</div>
-									<label class="switch">
+							</div>
+							<div class="sliderWrapper">
+								<div>Remove Cinema&nbsp;&nbsp;</div>
+								<label class="switch">
                             <input type="checkbox" class="notes" value="called in to downgrade their Cinema subscription"> <span class="slider round"></span>
                             </label>
-								</div>
-								<div class="sliderWrapper">
-									<div>Remove HD Mix (legacy)&nbsp;&nbsp;</div>
-									<label class="switch">
+							</div>
+							<div class="sliderWrapper">
+								<div>Remove HD Mix (legacy)&nbsp;&nbsp;</div>
+								<label class="switch">
                             <input type="checkbox" class="notes" value="called in to downgrade their HD(legacy) subscription"> <span class="slider round"></span>
                             </label>
-								</div>
-								<div class="sliderWrapper">
-									<div>Remove Boxsets/HD&nbsp;&nbsp;</div>
-									<label class="switch">
+							</div>
+							<div class="sliderWrapper">
+								<div>Remove Boxsets/HD&nbsp;&nbsp;</div>
+								<label class="switch">
                             <input type="checkbox" class="notes" value="called in to downgrade their Boxsets/HD subscription"> <span class="slider round"></span>
                             </label>
-								</div>
-								<div class="sliderWrapper">
-									<div>Remove Sky Kids&nbsp;&nbsp;</div>
-									<label class="switch">
+							</div>
+							<div class="sliderWrapper">
+								<div>Remove Sky Kids&nbsp;&nbsp;</div>
+								<label class="switch">
                             <input type="checkbox" class="notes" value="called in to downgrade their Sky Kids subscription"> <span class="slider round"></span>
                             </label>
-								</div>
-								<div class="sliderWrapper">
-									<div>Remove Sports Extra&nbsp;&nbsp;</div>
-									<label class="switch">
+							</div>
+							<div class="sliderWrapper">
+								<div>Remove Sports Extra&nbsp;&nbsp;</div>
+								<label class="switch">
                             <input type="checkbox" class="notes" value="called in to downgrade their Sports Extra subscription"> <span class="slider round"></span>
                             </label>
-								</div>
+							</div>
 
 
-							</form>
-						</div>
-						<br>
-						<!--SKY +HD troubleshooting steps hidden until clicked and hidden within Sky HD-->
-						<button type="button" class="btn btn-default" onclick="troubleShootingHD()" id="patoptions">Pat Outcomes</button>
-						<div id="patscn" style="display:none;">
-							<h3>Pat Fail</h3>
-							<div class="sliderWrapper">
-								<div>Pat Fail - Sports&nbsp;&nbsp;</div>
-								<label class="switch">
+						</form>
+					</div>
+					<br>
+					<!--SKY +HD troubleshooting steps hidden until clicked and hidden within Sky HD-->
+					<button type="button" class="btn btn-default" onclick="troubleShootingHD()" id="patoptions">Pat Outcomes</button>
+					<div id="patscn" style="display:none;">
+						<h3>Pat Fail</h3>
+						<div class="sliderWrapper">
+							<div>Pat Fail - Sports&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="they declined the (€) offer off their Sports subsctiption, processed 31 days notice period and explained future billing"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Pat Fail - Cinema&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Pat Fail - Cinema&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="they declined the (€) offer off their Cinema subsctiption, processed 31 days notice period and explained future billing"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Pat Fail - Top Tier&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Pat Fail - Top Tier&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="they declined the (€) offer off their Top Tier subsctiption, processed 31 days notice period and explained future billing"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Pat Fail - HD Mix (legacy)&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Pat Fail - HD Mix (legacy)&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="they declined the (€) offer off their HD (legacy) subsctiption, processed 31 days notice period and explained future billing"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Pat Fail - Boxsets/HD &nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Pat Fail - Boxsets/HD &nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="they declined the (€) offer off their Boxsets/HD subsctiption, processed 31 days notice period and explained future billing"> <span class="slider round"></span>
                             </label>
-							</div>
-							<br>
-							<!--PAT SAVE-->
+						</div>
+						<br>
+						<!--PAT SAVE-->
 
-							<h3>Pat Save</h3>
-							<div class="sliderWrapper">
-								<div>Pat Save - Sports&nbsp;&nbsp;</div>
-								<label class="switch">
+						<h3>Pat Save</h3>
+						<div class="sliderWrapper">
+							<div>Pat Save - Sports&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="they accepted the (€) offer on their Sports subsctiption, confirmed T&C's, customer accepted & explained future billing"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Pat Save - Cinema&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Pat Save - Cinema&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="they accepted the (€) offer on their Cinema subsctiption, confirmed T&C's, customer accepted & explained future billing"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Pat Save - Top Tier&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Pat Save - Top Tier&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="they accepted the (€) offer on their Top Tier subsctiption, confirmed T&C's, customer accepted & explained future billing"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Pat Partial Save - Top Tier/Sports Extra&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Pat Partial Save - Top Tier/Sports Extra&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="they decided to remove Sports/Cinema/Sports Extra after I offered (€) off the total subcription, T&C's accepted & explained future billing"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Pat Save - HD Mix (legacy)&nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Pat Save - HD Mix (legacy)&nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="they accepted the (€) offer on their HD (legacy) subsctiption,confirmed T&C's, customer accepted & explained future billing"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Pat Save - Boxsets/HD &nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Pat Save - Boxsets/HD &nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="they accepted the (€) offer on their Boxsets/HD subsctiption,confirmed T&C's, customer accepted & explained future billing"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Pat Save - BB Upgrade &nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Pat Save - BB Upgrade &nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="they accepted the (€) offer on their (insert TV sub here) subsctiption,customer also took out BB&T as part of the save, confirmed T&C's, customer accepted & explained future billing"> <span class="slider round"></span>
                             </label>
-							</div>
-							<div class="sliderWrapper">
-								<div>Pat Save - BB Upgrade & Q upgrade(VIP)  &nbsp;&nbsp;</div>
-								<label class="switch">
+						</div>
+						<div class="sliderWrapper">
+							<div>Pat Save - BB Upgrade & Q upgrade(VIP) &nbsp;&nbsp;</div>
+							<label class="switch">
                             <input type="checkbox" class="notes" value="they accepted the (€) offer on their (insert TV sub here) subsctiption,customer also took out BB&T as part of the save & upgraded to Sky Q with QMS & a mini with the VIP offer, confirmed T&C's, customer accepted & explained future billing"> <span class="slider round"></span>
                             </label>
-							</div>
-
-
 						</div>
+
+
 					</div>
-					<!--ADSL/FIBRE steps. feeds into text area on selection.
+				</div>
+				<!--ADSL/FIBRE steps. feeds into text area on selection.
 
 					<div id="ADSL1">
 						<FORM id=FormADSL method=get name=FormName action=blah.php>
@@ -1015,9 +1134,9 @@
 							
 						</FORM>
 						<!--End of Technical issues-->
-					<br>
+				<br>
 
-					<!--Troubleshooting steps broadband
+				<!--Troubleshooting steps broadband
 						<button type="button" class="btn btn-default" onclick="troubleShootingBB()" id="broadbandTrouble">Troubleshooting Steps</button>
 						<div id="TROUBLESHOOTBB">
 							
@@ -1076,8 +1195,8 @@
 							<!--Issues-->
 
 
-					</FORM>
-					<!--Talk troubleshooting steps
+				</FORM>
+				<!--Talk troubleshooting steps
 						<button type="button" class="btn btn-default" onclick="troubleShootingTalk()" id="troubleShootingTalk">Troubleshooting Steps</button>
 						<div id="TROUBLESHOOTTalk">
 						
@@ -1107,11 +1226,11 @@
 							<!--Issues-->
 
 
-					</FORM>
-					<!--resolution steps-->
+				</FORM>
+				<!--resolution steps-->
 
 
-					<!--Cancellation/downgrade requests
+				<!--Cancellation/downgrade requests
 						<br>
 						<button type="button" class="btn btn-default" onclick="cancellation()" id="cancellation">cancellation/downgrade</button>
 						<div id="cancellationdowngrade">
@@ -1163,12 +1282,12 @@
 					</div>
 				</div>
 			</div>-->
-				</div>
-
-				<!--<textarea id="selectedtext" placeholder="Selected Checkbox" style="display;none;"></textarea><br>-->
-				<!-- Button trigger modal -->
-				<button id="generatebtn" class="btn btn-primary btn-lg launch-modal" data-toggle="modal" data-target="#myModal">Generate</button>
 			</div>
+
+			<!--<textarea id="selectedtext" placeholder="Selected Checkbox" style="display;none;"></textarea><br>-->
+			<!-- Button trigger modal -->
+			<button id="generatebtn" class="btn btn-primary btn-lg launch-modal" data-toggle="modal" data-target="#myModal">Generate</button>
+		</div>
 		</div>
 		<footer>
 			<p>&copy; Colm Callan, Email: colm.callan@sky.ie

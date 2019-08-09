@@ -44,44 +44,44 @@ $(document).ready(function() {
     $("#patscn").toggle();
   });
 });
-//adslbroadband
+//Sky Sports Upgrade
 $(document).ready(function() {
-  $("#turnrnd").click(function() {
-    $("#ADSL1").toggle();
+  $("#sportsup").click(function() {
+    $("#Sportsupgrd").toggle();
   });
 });
 
-//troubleshootbroadband button
+//cinema upgrade button
 $(document).ready(function() {
-  $("#broadbandTrouble").click(function() {
-    $("#TROUBLESHOOTBB").toggle();
+  $("#cinemaupgrd").click(function() {
+    $("#Cinemaupgrade").toggle();
   });
 });
 
 //FTTH
 $(document).ready(function() {
-  $("#prdctbtnFTTH").click(function() {
-    $("#FTTH1").toggle();
+  $("#toptierupgrd").click(function() {
+    $("#toptierupgrade").toggle();
   });
 });
 //FTTH troubleshooting
 $(document).ready(function() {
-  $("#trubleShootFTTH").click(function() {
-    $("#TROUBLESHOOTFFTH").toggle();
+  $("#baseupgrd").click(function() {
+    $("#baseupgrade").toggle();
   });
 });
 
 //Sky Talk
 $(document).ready(function() {
-  $("#prdctbtnTalk").click(function() {
-    $("#TALK1").toggle();
+  $("#standaloneupg").click(function() {
+    $("#standaloneupgrade").toggle();
   });
 });
 
 //Talk troubleshooting
 $(document).ready(function() {
-  $("#troubleShootingTalk").click(function() {
-    $("#TROUBLESHOOTTalk").toggle();
+  $("#prodctsupgrade").click(function() {
+    $("#productsupgrade").toggle();
   });
 });
 
